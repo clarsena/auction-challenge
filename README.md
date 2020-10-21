@@ -1,3 +1,5 @@
+<!-- SORRY, I HAVE NEVER USED DOCKER BEFORE, SO I AM NOT SURE IF I ENDED UP SETTING MY STRUCTURE PROPERLY. I BELIEVE I GOT THE FUNCTIONALITY WORKING FINE BUT I WAS UNABLE TO FIGURE OUT HOW TO PROPERLY SETUP DOCKER BEFORE I HAD TO SUBMIT. -->
+
 # Auction Coding Challenge
 
 One of the things that the Engineering team at Sortable works on is software that
@@ -38,7 +40,7 @@ the same auction.
 
 A bid is invalid and should be ignored if the bidder is not permitted to bid on
 this site, the bid is for an ad unit not involved in this auction, the bidder
-is unknown, or if the *adjusted* bid value is less than the site's floor.
+is unknown, or if the _adjusted_ bid value is less than the site's floor.
 
 An auction is invalid if the site is unrecognized, or there are no valid bids.
 In the case of an invalid auction, just return an empty list of bids.
