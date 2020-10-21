@@ -1,0 +1,23 @@
+{
+	"name": "auction-challenge",
+	"version": "1.0.0",
+	"description": "One of the things that the Engineering team at Sortable works on is software that\r runs ad auctions, either in the browser or server-side. The goal of this challenge\r is to write a program that will run a simple auction, while enforcing data validity.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node ./usr/src/app/server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/clarsena/auction-challenge.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/clarsena/auction-challenge/issues"
+	},
+	"homepage": "https://github.com/clarsena/auction-challenge#readme",
+	"dependencies": {
+		"express": "^4.17.1"
+	}
+}
